@@ -25,5 +25,11 @@
 ./scripts/test-java.sh examples/01_numbers.bn
 ```
 
+4) Прогоните пример (только ошибки):
+
+```bash
+./scripts/check-java.sh examples/01_numbers.bn
+```
+
 Можно подставлять любой файл из `examples/`.
 

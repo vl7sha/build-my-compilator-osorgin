@@ -1,3 +1,5 @@
 .cursor
 .idea
 .vsc
+gen/.classes
+gen/.sources.txt
