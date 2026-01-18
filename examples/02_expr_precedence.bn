@@ -1,0 +1,19 @@
+begin
+  x, y, z : %;
+  b1, b2 : !;
+
+  x ass 2;
+  y ass 3;
+  z ass 4;
+
+  { проверка приоритетов: ~ сильнее, затем mult/div/and, затем plus/min/or, затем отношения }
+  write( ~x mult y plus z );          { (~x * y) + z }
+  write( x plus y mult z );           { x + (y * z) }
+  write( (x plus y) mult z );         { (x + y) * z }
+
+  { логика как фактор и отношения как самый низкий приоритет }
+  write( true and false or true );    { (true and false) or true }
+  write( x LT y );
+  write( x plus 1 LT y mult 2 );
+end
+

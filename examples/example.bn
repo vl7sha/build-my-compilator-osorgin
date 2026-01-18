@@ -1,0 +1,20 @@
+begin
+  a, b : %;
+  x : $;
+
+  a ass 1011D;
+  b ass 77O;
+  x ass ~a plus b mult (3.14e+2);
+
+  if a LT b then
+    write(x)
+  else
+    read(a, b);
+
+  for a ass 1D to 10D do
+    write(a);
+
+  while true do
+    a ass a min 1D
+end
+

@@ -1,0 +1,14 @@
+begin
+  a, b : %;
+  a ass 10;
+  b ass 20;
+
+  { if/then/else + несколько операторов в ветке (разделители: перевод строки и ;) }
+  if a LT b then
+    write(a);
+    write(b)
+  else
+    a ass a plus 1;
+    write(a)
+end
+

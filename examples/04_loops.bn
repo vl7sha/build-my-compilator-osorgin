@@ -1,0 +1,16 @@
+begin
+  i, limit : %;
+  limit ass 5;
+
+  { for + вложенный if }
+  for i ass 1 to limit do
+    if i EQ 3 then
+      write(i)
+    else
+      write(i plus 100);
+
+  { while + уменьшение }
+  while i GT 0 do
+    i ass i min 1
+end
+

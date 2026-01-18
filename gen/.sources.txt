@@ -1,0 +1,4 @@
+/Users/vl7sha/Projects/VibeCoding/build-my-compilator-osorgin/gen/java/BNLangVisitor.java
+/Users/vl7sha/Projects/VibeCoding/build-my-compilator-osorgin/gen/java/BNLangLexer.java
+/Users/vl7sha/Projects/VibeCoding/build-my-compilator-osorgin/gen/java/BNLangBaseVisitor.java
+/Users/vl7sha/Projects/VibeCoding/build-my-compilator-osorgin/gen/java/BNLangParser.java
